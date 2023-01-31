@@ -1,0 +1,58 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+#header #row{
+    font-size: 150%;
+}
+#header .col-6{
+    font-weight: bolder;
+    font-size:150% ;
+}
+#header .col-1{
+    margin-top:0.5%;
+}
+#header button{
+    width: 110%;
+    height: 95%;
+    background-color: black;
+    margin-top: -10%;
+    margin-left:-7%;
+}
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+    margin-top: 13.6%;
+}
+#footer p{
+    letter-spacing: 8px;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+/* --------------------login  content  is   start ------------------------- */
+.form-group{
+    padding-top: 2%;
+}
+#form{
+    margin-top: 10%;
+    font-size:x-large;
+}
+#form input{
+    border-style:solid ;
+}
+
+/* --------------------login  content  is   end ------------------------- */
