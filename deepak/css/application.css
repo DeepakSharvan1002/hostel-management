@@ -1,0 +1,74 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+#header #row{
+    font-size: 150%;
+}
+#header .col-6{
+    font-weight: bolder;
+    font-size:150% ;
+}
+#header .col-1{
+    margin-top:0.5%;
+}
+#header button{
+    width: 110%;
+    height: 95%;
+    background-color: black;
+    margin-top: -10%;
+    margin-left:-7%;
+}
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+.form-group{
+    padding-top: 1%;
+}
+label{
+    font-weight: bold;
+}
+input {
+    font-weight: bolder;
+}
+.form-control::placeholder { 
+    font-weight: 500;
+    opacity: 1; 
+}
+#submit{
+    padding-top: 2px;
+    background-color: red;
+    color: white;
+}
+#nobold{
+    font-weight:400;
+}
+
+#note{
+    color: red;
+    padding: 2% 20%;
+    font-size: 140%;
+}
+#note p{
+    text-indent: 100px;
+}

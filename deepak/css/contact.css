@@ -1,0 +1,74 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+#header #row{
+    font-size: 150%;
+}
+#header .col-6{
+    font-weight: bolder;
+    font-size:150% ;
+}
+#header .col-1{
+    margin-top:0.5%;
+}
+#header button{
+    width: 115%;
+    height: 95%;
+    background-color: black;
+    margin-top: -10%;
+    margin-left:-7%;
+}
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+/* ----------------------contact  is  start ---------------------- */
+#dir{
+    padding: 5% 16% 5% 17%;
+}
+#dir img{
+    height: 500px;
+    width: 500px;
+}
+#dir h1{
+    font-size: 320%;
+    font-weight: bold;
+}
+
+#dir h3{
+    font-weight: bold;
+}
+#nameimg{
+    margin-left: 5%;
+}
+#bold{
+    font-weight: bold;
+}
+#center{
+    text-align: center;
+}
+#dir p{
+    font-size: 155%;
+    text-indent: 100px;
+}
+/* ----------------------contact  is  end ---------------------- */
