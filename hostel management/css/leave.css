@@ -1,0 +1,98 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+#header #row{
+    font-size: 150%;
+}
+#header .col-6{
+    font-weight: bolder;
+    font-size:150% ;
+}
+#header .col-1{
+    margin-top:0.5%;
+}
+#header button{
+    width: 110%;
+    height: 95%;
+    background-color: black;
+    margin-top: -10%;
+    margin-left:-7%;
+}
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+
+/* ----------------------slide  is   start ---------------------- */
+
+#slidebar a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-group-vertical{
+    width: 100%;
+    /* 103 */
+
+}
+#slidepad{
+    padding: 0px 0px 15.1% 0px;
+    background-color:rgb(1, 52, 255);
+}
+#slidebar #slidepad button{
+    background-color:rgb(1, 52, 255) !important ;
+    padding: 6% 0%;
+    font-size: 20px;
+}
+#black{
+    color: black;
+}
+/* ----------------------slide  is   end ---------------------- */
+
+#content{
+    padding: 5% 10% 5% 10%;
+    
+}
+#content form{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+#content .form-group{
+    padding-top: 3%;
+}
+#content .form-group{
+    font-size: 110%;
+    font-weight: 600;
+}
+#content #nobold{
+    font-weight: 100;
+}
+
+#content #reason{
+    height: 200px;
+}
+
+#content #submit{
+    color: white;
+    background-color:red;
+}

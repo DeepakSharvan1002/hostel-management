@@ -1,0 +1,94 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+    /* position: sticky;
+    top: 0; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#header #row{
+    font-size: 150%;
+}
+#header .col-6{
+    font-weight: bolder;
+    font-size:150% ;
+}
+#header .col-1{
+    margin-top:0.5%;
+}
+#header button{
+    width: 110%;
+    height: 95%;
+    background-color: black;
+    margin-top: -10%;
+    margin-left:-7%;
+}
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+/* ----------------------  image   baner  is   start---------------------- */
+#image{
+    height: 550px;
+    background: linear-gradient(rgb(28, 173, 240), rgb(43, 181, 245),rgb(44, 181, 244),
+    rgb(62, 182, 238),rgb(99, 195, 239),rgb(140, 211, 244),rgb(167, 217, 239),rgb(176, 210, 226));
+    opacity: 0.8;
+}
+#con{
+    text-align: center;
+    padding-top: 230px; 
+    color: black;
+    font-weight: bolder;
+}
+#image p{
+    margin-left: -320px;
+}
+#image #contitle{
+    /* margin-top: 20%; */
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left: 17%;
+    line-height: 30px;
+}
+#red{
+    color: red;
+}
+/* ----------------------  image   baner  is   end---------------------- */
+
+/* ----------------------  application   is  start---------------------- */
+
+#application{
+    text-align: center;
+    padding: 9% 0% 9% 0%;
+    font-size: 190%;
+    font-weight: 600;
+}
+
+#application .btn{
+    background-color: red;
+    font-size: 110%;
+    font-weight: 500;
+}
+#appli{
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+/* ----------------------  application   is  start---------------------- */
