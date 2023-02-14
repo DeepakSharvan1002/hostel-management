@@ -1,0 +1,13 @@
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+}
+

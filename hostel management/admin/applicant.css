@@ -1,0 +1,60 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+}
+#header a{
+    text-decoration: none;
+    color: white;
+}
+#header #row{
+    font-size: 150%;
+}
+#header .col-6{
+    font-weight: bolder;
+    font-size:150% ;
+}
+#header .col-2{
+    margin-top:0.6%;
+}
+#header button{
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    margin-top: -10%;
+    margin-left:-7%;
+}
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------  admin   portal  start---------------------- */
+#title{
+    text-align: center;
+}
+#title h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+/* ----------------------  admin   portal  end---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+a{
+    text-decoration: none;
+    
+}
