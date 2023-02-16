@@ -26,7 +26,7 @@ $id = $_SESSION['id'];
 <div class="container-fluid py-3 " id="header">
     <div class="container">
         <div class="row" id="row">
-            <div class="col-6">BOYS HOSTEL</div>
+            <div class="col-6"><a href="../index.php" style="color:white;">BOYS HOSTEL</a></div>
             <div class="col-1"></div>
             <div class="col-1"></div>
             <div class="col-1"><a href="../index.php">Home</a></div>
@@ -41,15 +41,17 @@ $id = $_SESSION['id'];
 
 <div class="container-fluid" id="slidebar">
     <div class="row">
-        <div class="col-3 border" id="slidepad">
+        <div class="col-2 border" id="slidepad">
             <div class="btn-group-vertical">
                 <button type="button" class="btn"><a href="dashboard.php"><span id="black">Dashboard</span></a></button>
                 <button type="button" class="btn"><a href="leave.php">Leave Form</a></button>
                 <button type="button" class="btn"><a href="fees.php">Fees</a></button>
-                <button type="button" class="btn"><a href="report.php">Report</a></button>
+                <button type="button" class="btn"><a href="query.php">Query</a></button>
+                <button type="button" class="btn"><a href="pre_query.php">Previous Query</a></button>
+                <button type="button" class="btn"><a href="compliant.php">Compliant</a></button>
             </div>
         </div>
-        <div class="col-9">
+        <div class="col-10">
             <?php 
 
                     include('../include/dbconnection.php');

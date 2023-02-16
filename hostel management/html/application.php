@@ -17,7 +17,7 @@
   <div class="container-fluid py-3 " id="header">
     <div class="container">
       <div class="row" id="row">
-        <div class="col-6">BOYS HOSTEL</div>
+        <div class="col-6"><a href="../index.php" style="color:white;">BOYS HOSTEL</a></div>
         <div class="col-1"></div>
         <div class="col-1"></div>
         <div class="col-1"><a href="../index.php">Home</a></div>
@@ -47,26 +47,26 @@
               <div class="form-group row">
                 <label for="name" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="name" name="sfname" placeholder="ur name" autocomplete="off" required>
+                  <input type="text" class="form-control" id="name" name="sfname" placeholder="ur name"  autocomplete="off" required>
                 </div>
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="name" name="smname" placeholder="middle name" autocomplete="off" >
+                  <input type="text" class="form-control" id="name" name="smname" placeholder="middle name"  autocomplete="off" >
                 </div>
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="name" name="slname" placeholder="last name" autocomplete="off" required>
+                  <input type="text" class="form-control" id="name" name="slname" placeholder="last name"  autocomplete="off" required>
                 </div>
               </div>
 
               <div class="form-group row">
                 <label for="f-name" class="col-sm-2 col-form-label">father name</label>
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="f-name" name="ffname" placeholder="ur name" autocomplete="off" required>
+                  <input type="text" class="form-control" id="f-name" name="ffname" placeholder="ur name"   autocomplete="off" required>
                 </div>
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="f-name" name="fmname" placeholder="middle name" autocomplete="off" >
+                  <input type="text" class="form-control" id="f-name" name="fmname" placeholder="middle name"   autocomplete="off" >
                 </div>
                 <div class="col-sm-3">
-                  <input type="text" class="form-control" id="f-name" name="flname" placeholder="last name" autocomplete="off" required>
+                  <input type="text" class="form-control" id="f-name" name="flname" placeholder="last name"   autocomplete="off" required>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@
               <div class="form-group row">
                 <div class="col-sm-2"></div>
                 <div class="col-sm">
-                  <input type="text" class="form-control" id="address" name="district" placeholder="district" autocomplete="off" required />
+                  <input type="text" class="form-control" id="address" name="district" placeholder="district"   autocomplete="off" required />
                 </div>
               </div>
 

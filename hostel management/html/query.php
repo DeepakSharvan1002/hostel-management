@@ -5,15 +5,16 @@ if(!isset($_SESSION['id'])){
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FEES BOYS HOSTEL</title>
+    <title>REPORT BOYS HOSTEL</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/fees.css">
+    <link rel="stylesheet" href="../css/report.css">
 </head>
 <body>
 
@@ -40,12 +41,40 @@ if(!isset($_SESSION['id'])){
             <div class="btn-group-vertical">
                 <button type="button" class="btn"><a href="dashboard.php">Dashboard</a></button>
                 <button type="button" class="btn"><a href="leave.php">Leave Form</a></button>
-                <button type="button" class="btn"><a href="fees.php"><span id="black">Fees</span></a></button>
-                <button type="button" class="btn"><a href="query.php">query</a></button>
+                <button type="button" class="btn"><a href="fees.php">Fees</a></button>
+                <button type="button" class="btn"><a href="query.php"><span id="black">Query</span></a></button>
                 <button type="button" class="btn"><a href="pre_query.php">Previous Query</a></button>
                 <button type="button" class="btn"><a href="compliant.php">Compliant</a></button>
             </div>
-        </div>        
+        </div> 
+        
+        <div class="col-10" id="content">
+            <h2>Query</h2>
+            <form action="/" method="post">
+
+                <div class="form-group row">
+                    <label for="report" class="col-sm-2 col-form-label">Query</label>
+                    <div class="col-sm-9">
+                        <textarea name="query" id="reason" cols="30" placeholder="Enter the query here.." style="width:100%"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="ans" class="col-sm-2 col-form-label">Admin replay</label>
+                    <div class="col-sm-9 border" style="height:200px;">
+                        
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-12">
+                      <input type="submit" class="form-control"  name="submit" id="submit"/>
+                    </div>
+                  </div>
+            </form>
+
+
+        </div>
     </div>
 </div>
 

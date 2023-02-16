@@ -98,7 +98,13 @@ input{
             $query = "select * from application where appli_no='$val'";
 
             $result = mysqli_query($con, $query);
-            while ($row = mysqli_fetch_assoc($result)) { ?>
+            while ($row = mysqli_fetch_assoc($result)) { 
+                
+                
+        $appli_no = $row['appli_no']; 
+        $name = $row['SFName'].' '. $row['SMName'].' '.$row['SLName'];
+        
+        ?>
                 <div class="container" style="width: 50%; margin-bottom: 80px;">
                 <table class="table table-striped">
                 <tr>
@@ -192,11 +198,13 @@ input{
 
 
         <?php
+
         if(isset($_POST['Aprove'])){
             
                 $select=mysqli_query($con,"insert into selected (appli_no,boys) value ('$id',1)");
                 echo '<script>alert("approved sucessfull")</script>';
                 echo '<script>window.location="../admin/applicant.php";</script>';
+                mysqli_query($con,"insert into ad_fees (appli_no,name) values ('$appli_no','$name')");
         }
         
         elseif (isset($_POST['reject'])){

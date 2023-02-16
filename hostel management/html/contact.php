@@ -14,7 +14,7 @@
 <div class="container-fluid py-3 " id="header">
     <div class="container">
         <div class="row" id="row">
-            <div class="col-6">BOYS HOSTEL</div>
+            <div class="col-6"><a href="../index.php" style="color:white;">BOYS HOSTEL</a></div>
             <div class="col-1"></div>
             <div class="col-1"></div>
             <div class="col-1"><a href="../index.php">Home</a></div>
@@ -31,7 +31,7 @@
         <div class="col">
             <img src="../image/hostel.jpg" alt="">
         </div>
-        <div class="col id="nameimg"">
+        <div class="col" id="nameimg">
             <h1>DIRECTOR</h1><br>
             <h3>Dr.M.Arokiya raj</h3><br>
             <p>He is the dean of the english department , St.joseph's college,tiruchirappali</p>

@@ -1,4 +1,14 @@
+<?php
 
+session_start();
+
+if (!isset($_SESSION['id'])) {
+    header('location: ../html/login.php');
+    echo '<script>alert("Please login first")</script>';
+}
+
+$id = $_SESSION['id'];
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -16,19 +26,28 @@
 <div class="container-fluid py-3 " id="header">
     <div class="container">
         <div class="row" id="row">
-            <div class="col-6">BOYS HOSTEL</div>
-            <div class="col-2" id="butten"><a href="applicant.php"><button>Application</a></button></a></div>
-            <div class="col-2"><a href="fees_details.php">fees</a></div>
-            <div class="col-2"><a href="stud_details.php">student</a></div>
+            <div class="col-4" style="font-weight:bold; font-size:150%;"><a href="../index.php" style="color:white;">BOYS HOSTEL</a></div>
+            <div class="col-5"></div>
+            <div class="col-3" style="font-weight:bold; font-size:150%;">ADMIN PORTAL</div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="title">
-    <h3>ADMIN PORTAL</h3>
+<div class="container-fluid py-1 border ">
+        <div class="row" id="row">
+            <div class="col-1"></div>
+            <div class="col-1" id="butten"><a href="applicant.php"><button>Application</button></a></div>
+            <div class="col-1"><a href="stud_details.php">student</a></div>
+            <div class="col-1"><a href="fees_details.php">fees</a></div>
+            <div class="col-1"><a href="adquery.php">Query</a></div>
+            <div class="col-1"><a href="adcompliant.php">Complaint</a></div>
+            <div class="col-1"><a href="adleave.php">Leave</a></div>
+            <div class="col-1"><a href="adreport.php">Report</a></div>
+            <div class="col-1"><a href="../html/logout.php">logout</a></div>
+        </div>
 </div>
 
-<div class="contaier">
+<div class="contaier py-5">
 <?php
 include('../include/dbconnection.php');
 

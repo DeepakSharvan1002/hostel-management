@@ -14,7 +14,7 @@
 <div class="container-fluid py-3 " id="header">
     <div class="container">
         <div class="row" id="row">
-            <div class="col-6">BOYS HOSTEL</div>
+            <div class="col-6"><a href="../index.php" style="color:white;">BOYS HOSTEL</a></div>
             <div class="col-1"></div>
             <div class="col-1"></div>
             <div class="col-1"><a href="../index.php">Home</a></div>
