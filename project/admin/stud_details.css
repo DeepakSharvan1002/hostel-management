@@ -1,0 +1,40 @@
+/* ----------------------  header  is   start  ---------------------- */
+#header{
+    background-color: red;
+    color: white;
+    height: auto;
+}
+
+/* ----------------------header  is   end ---------------------- */
+
+/* ----------------------  admin   portal  start---------------------- */
+#title{
+    text-align: center;
+}
+#title h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+/* ----------------------  admin   portal  end---------------------- */
+
+/* ----------------------footer  is   start ---------------------- */
+#footer{
+    background-color: red;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    line-height: 95%;
+    font-size: 75%;
+}
+#footer p{
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+/* ----------------------footer  is   end ---------------------- */
+
+a{
+    text-decoration: none;
+    
+}
